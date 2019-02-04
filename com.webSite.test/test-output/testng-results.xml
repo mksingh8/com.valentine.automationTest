@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-03T15:36:50Z" name="Default suite" finished-at="2019-02-03T15:37:26Z" duration-ms="36023">
+    <groups>
+    </groups>
+    <test started-at="2019-02-03T15:36:50Z" name="Default test" finished-at="2019-02-03T15:37:26Z" duration-ms="36023">
+      <class name="com.valentine.qa.test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:36:50Z" name="setUp" finished-at="2019-02-03T15:37:01Z" duration-ms="10685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:01Z" name="homePageTitleTest" finished-at="2019-02-03T15:37:01Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:01Z" name="tearDown" finished-at="2019-02-03T15:37:02Z" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:02Z" name="setUp" finished-at="2019-02-03T15:37:12Z" duration-ms="9960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageLogoTest()[pri:1, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:12Z" name="homePageLogoTest" finished-at="2019-02-03T15:37:12Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:12Z" name="tearDown" finished-at="2019-02-03T15:37:13Z" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:13Z" name="setUp" finished-at="2019-02-03T15:37:23Z" duration-ms="9991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageHeaderCodeBtnClickTest()[pri:2, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:23Z" name="homePageHeaderCodeBtnClickTest" finished-at="2019-02-03T15:37:25Z" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeaderCodeBtnClickTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:25Z" name="tearDown" finished-at="2019-02-03T15:37:26Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.valentine.qa.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
