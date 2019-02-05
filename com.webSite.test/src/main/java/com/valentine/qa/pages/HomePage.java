@@ -50,6 +50,9 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath="//div[@id='special-items']//img")
 	List<WebElement> specialItemImageList;
+	
+	@FindBy(xpath="//*[@id='special-items']/div[1]/h4/a")
+	WebElement spclOfr1stItem;
 		
 	//Initializing the Page Object
 	public HomePage() {
@@ -104,11 +107,13 @@ public class HomePage extends TestBase{
 		}
 	}
 	
-	public void validateSpecialOffer(String itemName) {	
-		driver.findElement(By.xpath("//div[@class='special-item']//h4//a[text()='"+itemName+"']"));
+	//public Add2CartPage validateAdd2Cart(String itemName) {
+	public Add2CartPage validateAdd2Cart() {
+		//WebElement firstItem = driver.findElement(By.xpath("//div[@class='special-item']//h4//a[text()='"+itemName+"']"));
+		//Closeness and Togetherness
 		
-		
-		
+		spclOfr1stItem.click();
+		return new Add2CartPage();
 		
 	}
 	
