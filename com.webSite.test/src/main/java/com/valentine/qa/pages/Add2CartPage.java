@@ -31,8 +31,10 @@ public class Add2CartPage extends TestBase{
 	@FindBy(xpath="//input[@id='url']")
 	WebElement websiteBox;
 	
-	@FindBy(xpath="//input[@id='comment']")
+	@FindBy(xpath="//textarea[@id='comment']")
 	WebElement commentBox;
+	
+	//*[@id="comment"]
 
 	@FindBy(xpath="//input[@id='submit']")
 	WebElement sumitCommentBtn;
@@ -57,8 +59,8 @@ public class Add2CartPage extends TestBase{
 		return magnifyImg.isDisplayed();
 	}
 	
-	//public void validateSubmitCommentBtn(String name, String email, String website, String rating, String comment) {
-	public void validateSubmitCommentBtn() {	
+	public void validateSubmitCommentBtn(String name, String email, String website, String rating, String comment) {
+	/*public void validateSubmitCommentBtn() {	
 
 		nameBox.sendKeys("Ravi");
 		emailBox.sendKeys("meranaam@ravi.com");
@@ -67,8 +69,13 @@ public class Add2CartPage extends TestBase{
 		//driver.findElement(By.xpath("//a[@title='"+rating+"']")).click();
 		commentBox.sendKeys("Hardcoded comments");
 		sumitCommentBtn.click();
-		
-		
+*/		
+		nameBox.sendKeys(name);
+		emailBox.sendKeys(email);
+		websiteBox.sendKeys(website);
+		driver.findElement(By.xpath("//a[@title='"+rating+"']")).click();
+		commentBox.sendKeys(comment);
+		sumitCommentBtn.click();
 	}
 	
 	

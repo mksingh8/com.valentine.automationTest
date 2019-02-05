@@ -18,7 +18,7 @@ public class TestBase {
 		
 		prop = new Properties();
 		try {
-			FileInputStream fs = new FileInputStream("/home/manish/eclipse-workspace/com.webSite.test"
+			FileInputStream fs = new FileInputStream("/home/manish/git/com.valentine.automationTest/com.webSite.test"
 					+ "/src/main/java/com/valentine/qa/config/config.properties");
 			prop.load(fs);
 		} catch (FileNotFoundException e) {
