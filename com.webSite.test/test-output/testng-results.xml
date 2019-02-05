@@ -1,49 +1,442 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-03T15:36:50Z" name="Default suite" finished-at="2019-02-03T15:37:26Z" duration-ms="36023">
+  <suite started-at="2019-02-05T19:18:17Z" name="Default suite" finished-at="2019-02-05T19:21:15Z" duration-ms="178712">
     <groups>
     </groups>
-    <test started-at="2019-02-03T15:36:50Z" name="Default test" finished-at="2019-02-03T15:37:26Z" duration-ms="36023">
-      <class name="com.valentine.qa.test.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:36:50Z" name="setUp" finished-at="2019-02-03T15:37:01Z" duration-ms="10685" status="PASS">
+    <test started-at="2019-02-05T19:18:17Z" name="Default test" finished-at="2019-02-05T19:21:15Z" duration-ms="178712">
+      <class name="com.valentine.qa.test.Add2CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:17Z" name="setUp" finished-at="2019-02-05T19:18:32Z" duration-ms="14333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:01Z" name="homePageTitleTest" finished-at="2019-02-03T15:37:01Z" duration-ms="11" status="PASS">
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:32Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:18:34Z" duration-ms="2194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@ravi.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.ravi.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 1st comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:01Z" name="tearDown" finished-at="2019-02-03T15:37:02Z" duration-ms="1186" status="PASS">
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:34Z" name="tearDown" finished-at="2019-02-05T19:18:35Z" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:02Z" name="setUp" finished-at="2019-02-03T15:37:12Z" duration-ms="9960" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:35Z" name="setUp" finished-at="2019-02-05T19:18:46Z" duration-ms="11170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageLogoTest()[pri:1, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:12Z" name="homePageLogoTest" finished-at="2019-02-03T15:37:12Z" duration-ms="103" status="PASS">
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:46Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:18:48Z" duration-ms="2114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit@amit.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.amit.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 2nd comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:12Z" name="tearDown" finished-at="2019-02-03T15:37:13Z" duration-ms="1045" status="PASS">
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:48Z" name="tearDown" finished-at="2019-02-05T19:18:50Z" duration-ms="1173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:13Z" name="setUp" finished-at="2019-02-03T15:37:23Z" duration-ms="9991" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:18:50Z" name="setUp" finished-at="2019-02-05T19:19:02Z" duration-ms="12533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageHeaderCodeBtnClickTest()[pri:2, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:23Z" name="homePageHeaderCodeBtnClickTest" finished-at="2019-02-03T15:37:25Z" duration-ms="1736" status="PASS">
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:02Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:19:04Z" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sushil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@ravi.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.ravi.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 3rd comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageHeaderCodeBtnClickTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@757acd7b]" started-at="2019-02-03T15:37:25Z" name="tearDown" finished-at="2019-02-03T15:37:26Z" duration-ms="1274" status="PASS">
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:04Z" name="tearDown" finished-at="2019-02-05T19:19:05Z" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.valentine.qa.test.HomePageTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:05Z" name="setUp" finished-at="2019-02-05T19:19:17Z" duration-ms="11920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:17Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:19:20Z" duration-ms="2216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dinesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit@amit.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.amit.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 4th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:20Z" name="tearDown" finished-at="2019-02-05T19:19:21Z" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:21Z" name="setUp" finished-at="2019-02-05T19:19:34Z" duration-ms="13647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:34Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:19:37Z" duration-ms="2371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raj Shekhar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@ravi.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.ravi.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 5th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:37Z" name="tearDown" finished-at="2019-02-05T19:19:38Z" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:38Z" name="setUp" finished-at="2019-02-05T19:19:52Z" duration-ms="13734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:52Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:19:54Z" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit@amit.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.amit.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 6th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:54Z" name="tearDown" finished-at="2019-02-05T19:19:55Z" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:19:55Z" name="setUp" finished-at="2019-02-05T19:20:09Z" duration-ms="14055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:09Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:20:11Z" duration-ms="2157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@ravi.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.ravi.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 7th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:11Z" name="tearDown" finished-at="2019-02-05T19:20:12Z" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:12Z" name="setUp" finished-at="2019-02-05T19:20:25Z" duration-ms="12903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:25Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:20:27Z" duration-ms="2077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushanta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit@amit.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.amit.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 8th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:27Z" name="tearDown" finished-at="2019-02-05T19:20:28Z" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:28Z" name="setUp" finished-at="2019-02-05T19:20:42Z" duration-ms="13311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:42Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:20:44Z" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Devang]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@ravi.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.ravi.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 9th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:44Z" name="tearDown" finished-at="2019-02-05T19:20:45Z" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:45Z" name="setUp" finished-at="2019-02-05T19:20:57Z" duration-ms="11865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:57Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:20:59Z" duration-ms="2224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Devangan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit@amit.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.amit.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 10th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:20:59Z" name="tearDown" finished-at="2019-02-05T19:21:00Z" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:21:00Z" name="setUp" finished-at="2019-02-05T19:21:12Z" duration-ms="11949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatesubmitBtnTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:21:12Z" name="validatesubmitBtnTest" data-provider="getData" finished-at="2019-02-05T19:21:14Z" duration-ms="2203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diler Paji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@ravi.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.ravi.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[this is my 11th comment added directly from test data sheet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubmitBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.Add2CartPageTest@ba54932]" started-at="2019-02-05T19:21:14Z" name="tearDown" finished-at="2019-02-05T19:21:15Z" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.valentine.qa.test.Add2CartPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
