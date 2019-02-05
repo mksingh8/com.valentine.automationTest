@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Checks" guice-stage="DEVELOPMENT" verbose="2">
+
+	<listeners>
+		<listener
+			class-name="com.valentine.qa.utils.ExtentReporterNG"></listener>
+	</listeners>
+	<test thread-count="5" name="TestNG test" preserve-order="false">
+
+		<classes>
+			<class name="com.valentine.qa.test.HomePageTest"></class>
+			<class name="com.valentine.qa.test.Add2CartPageTest" />
+			<!-- <class name="testNGBasics.TestNGFeatures" /> -->
+			<!-- <class name="testNGBasics.TestNGBasics" /> -->
+		</classes>
+	</test>
+</suite>
+
+
+<!-- You can specify package names instead of class names: -->
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > <suite name="Suite1" 
+	verbose="1"> <test name="Regression1"> <packages> <package name="testNGBasics" 
+	/> </packages> </test> </suite> -->
+
+
+
+
+<!-- You can also specify groups and methods to be included and excluded: 
+	<test name="Regression1"> <groups> <run> <exclude name="brokenTests" /> <include 
+	name="checkinTests" /> </run> </groups> <classes> <class name="test.IndividualMethodsTest"> 
+	<methods> <include name="testMethod" /> </methods> </class> </classes> </test> -->
+
+
+
+
+
+
+
+

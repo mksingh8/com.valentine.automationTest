@@ -26,7 +26,7 @@ public class HomePageTest extends TestBase{
 	@Test(priority=0)
 	public void homePageTitleTest() {
 		String homeTitle = homePage.validateHomePageTitle();
-		Assert.assertEquals(homeTitle, "Valentine's Day Cards | Please your loved ones with a card this year!");
+		Assert.assertEquals(homeTitle, "Valentine's Day Cards | Please your loved ones with a card this year!!");
 	}
 	
 	@Test(priority=1)

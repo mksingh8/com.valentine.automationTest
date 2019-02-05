@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-TestNG_Checks" class="navigator-link">
+              <span class="suite-name border-failed">TestNG Checks</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-TestNG_Checks" class="navigator-link ">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-TestNG_Checks" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-TestNG_Checks" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-TestNG_Checks" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-TestNG_Checks" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-TestNG_Checks" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-TestNG_Checks" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,71 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNG_Checks" class="hide-methods failed suite-TestNG_Checks"> (hide)</a> <!-- hide-methods failed suite-TestNG_Checks -->
+                      <a href="#" panel-name="suite-TestNG_Checks" class="show-methods failed suite-TestNG_Checks"> (show)</a> <!-- show-methods failed suite-TestNG_Checks -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNG_Checks">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Checks" title="com.valentine.qa.test.HomePageTest" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNG_Checks -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-TestNG_Checks" class="hide-methods passed suite-TestNG_Checks"> (hide)</a> <!-- hide-methods passed suite-TestNG_Checks -->
+                      <a href="#" panel-name="suite-TestNG_Checks" class="show-methods passed suite-TestNG_Checks"> (show)</a> <!-- show-methods passed suite-TestNG_Checks -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-TestNG_Checks">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(amit, amit@amit.com, www.amit.com, 1.5, this is my 2nd comment added directly from test data sheet.)">validatesubmitBtnTest(amit, amit@amit.com, www.amit.com, 1.5, this is my 2nd comment added directly from test data sheet.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG_Checks" title="com.valentine.qa.test.HomePageTest" class="method navigator-link" hash-for-method="copyRightOwnerTest">copyRightOwnerTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Sushanta, amit@amit.com, www.amit.com, 4.5, this is my 8th comment added directly from test data she...)">validatesubmitBtnTest(Sushanta, amit@amit.com, www.amit.com, 4.5, this is my 8th comment added directly from test data she...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG_Checks" title="com.valentine.qa.test.HomePageTest" class="method navigator-link" hash-for-method="homePageHeaderCodeBtnClickTest">homePageHeaderCodeBtnClickTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Devangan, amit@amit.com, www.amit.com, 1.5, this is my 10th comment added directly from test data sh...)">validatesubmitBtnTest(Devangan, amit@amit.com, www.amit.com, 1.5, this is my 10th comment added directly from test data sh...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG_Checks" title="com.valentine.qa.test.HomePageTest" class="method navigator-link" hash-for-method="homePageLogoTest">homePageLogoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(ravi, ravi@ravi.com, www.ravi.com, 1.5, this is my 1st comment added directly from test data sheet.)">validatesubmitBtnTest(ravi, ravi@ravi.com, www.ravi.com, 1.5, this is my 1st comment added directly from test data sheet.)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Suresh, ravi@ravi.com, www.ravi.com, 4.5, this is my 7th comment added directly from test data sheet...)">validatesubmitBtnTest(Suresh, ravi@ravi.com, www.ravi.com, 4.5, this is my 7th comment added directly from test data sheet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(sushil, ravi@ravi.com, www.ravi.com, 2.5, this is my 3rd comment added directly from test data sheet...)">validatesubmitBtnTest(sushil, ravi@ravi.com, www.ravi.com, 2.5, this is my 3rd comment added directly from test data sheet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Raj Shekhar, ravi@ravi.com, www.ravi.com, 3.5, this is my 5th comment added directly from test data ...)">validatesubmitBtnTest(Raj Shekhar, ravi@ravi.com, www.ravi.com, 3.5, this is my 5th comment added directly from test data ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Diler Paji, ravi@ravi.com, www.ravi.com, 1.5, this is my 11th comment added directly from test data ...)">validatesubmitBtnTest(Diler Paji, ravi@ravi.com, www.ravi.com, 1.5, this is my 11th comment added directly from test data ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Ramesh, amit@amit.com, www.amit.com, 3.5, this is my 6th comment added directly from test data sheet...)">validatesubmitBtnTest(Ramesh, amit@amit.com, www.amit.com, 3.5, this is my 6th comment added directly from test data sheet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(Devang, ravi@ravi.com, www.ravi.com, 4.5, this is my 9th comment added directly from test data sheet...)">validatesubmitBtnTest(Devang, ravi@ravi.com, www.ravi.com, 4.5, this is my 9th comment added directly from test data sheet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.valentine.qa.test.Add2CartPageTest" class="method navigator-link" hash-for-method="validatesubmitBtnTest(dinesh, amit@amit.com, www.amit.com, 2.5, this is my 4th comment added directly from test data sheet...)">validatesubmitBtnTest(dinesh, amit@amit.com, www.amit.com, 2.5, this is my 4th comment added directly from test data sheet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-TestNG_Checks -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -166,362 +140,238 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-TestNG_Checks" class="panel TestNG_Checks">
+          <div class="suite-TestNG_Checks-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.valentine.qa.test.Add2CartPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.valentine.qa.test.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validatesubmitBtnTest(amit, amit@amit.com, www.amit.com, 1.5, this is my 2nd comment added directly from test data sheet.)">
-                  </a> <!-- validatesubmitBtnTest(amit, amit@amit.com, www.amit.com, 1.5, this is my 2nd comment added directly from test data sheet.) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(amit, amit@amit.com, www.amit.com, 1.5, this is my 2nd comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Sushanta, amit@amit.com, www.amit.com, 4.5, this is my 8th comment added directly from test data she...)">
-                  </a> <!-- validatesubmitBtnTest(Sushanta, amit@amit.com, www.amit.com, 4.5, this is my 8th comment added directly from test data she...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Sushanta, amit@amit.com, www.amit.com, 4.5, this is my 8th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Devangan, amit@amit.com, www.amit.com, 1.5, this is my 10th comment added directly from test data sh...)">
-                  </a> <!-- validatesubmitBtnTest(Devangan, amit@amit.com, www.amit.com, 1.5, this is my 10th comment added directly from test data sh...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Devangan, amit@amit.com, www.amit.com, 1.5, this is my 10th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(ravi, ravi@ravi.com, www.ravi.com, 1.5, this is my 1st comment added directly from test data sheet.)">
-                  </a> <!-- validatesubmitBtnTest(ravi, ravi@ravi.com, www.ravi.com, 1.5, this is my 1st comment added directly from test data sheet.) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(ravi, ravi@ravi.com, www.ravi.com, 1.5, this is my 1st comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Suresh, ravi@ravi.com, www.ravi.com, 4.5, this is my 7th comment added directly from test data sheet...)">
-                  </a> <!-- validatesubmitBtnTest(Suresh, ravi@ravi.com, www.ravi.com, 4.5, this is my 7th comment added directly from test data sheet...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Suresh, ravi@ravi.com, www.ravi.com, 4.5, this is my 7th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(sushil, ravi@ravi.com, www.ravi.com, 2.5, this is my 3rd comment added directly from test data sheet...)">
-                  </a> <!-- validatesubmitBtnTest(sushil, ravi@ravi.com, www.ravi.com, 2.5, this is my 3rd comment added directly from test data sheet...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(sushil, ravi@ravi.com, www.ravi.com, 2.5, this is my 3rd comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Raj Shekhar, ravi@ravi.com, www.ravi.com, 3.5, this is my 5th comment added directly from test data ...)">
-                  </a> <!-- validatesubmitBtnTest(Raj Shekhar, ravi@ravi.com, www.ravi.com, 3.5, this is my 5th comment added directly from test data ...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Raj Shekhar, ravi@ravi.com, www.ravi.com, 3.5, this is my 5th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Diler Paji, ravi@ravi.com, www.ravi.com, 1.5, this is my 11th comment added directly from test data ...)">
-                  </a> <!-- validatesubmitBtnTest(Diler Paji, ravi@ravi.com, www.ravi.com, 1.5, this is my 11th comment added directly from test data ...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Diler Paji, ravi@ravi.com, www.ravi.com, 1.5, this is my 11th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Ramesh, amit@amit.com, www.amit.com, 3.5, this is my 6th comment added directly from test data sheet...)">
-                  </a> <!-- validatesubmitBtnTest(Ramesh, amit@amit.com, www.amit.com, 3.5, this is my 6th comment added directly from test data sheet...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Ramesh, amit@amit.com, www.amit.com, 3.5, this is my 6th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(Devang, ravi@ravi.com, www.ravi.com, 4.5, this is my 9th comment added directly from test data sheet...)">
-                  </a> <!-- validatesubmitBtnTest(Devang, ravi@ravi.com, www.ravi.com, 4.5, this is my 9th comment added directly from test data sheet...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(Devang, ravi@ravi.com, www.ravi.com, 4.5, this is my 9th comment added directly from test data sheet.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatesubmitBtnTest(dinesh, amit@amit.com, www.amit.com, 2.5, this is my 4th comment added directly from test data sheet...)">
-                  </a> <!-- validatesubmitBtnTest(dinesh, amit@amit.com, www.amit.com, 2.5, this is my 4th comment added directly from test data sheet...) -->
-                  <span class="method-name">validatesubmitBtnTest</span>
-                  <span class="parameters">(dinesh, amit@amit.com, www.amit.com, 2.5, this is my 4th comment added directly from test data sheet.)</span>
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Valentine&apos;s Day Cards | Please your loved ones with a card this year!!] but found [Valentine&apos;s Day Cards | Please your loved ones with a card this year!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.valentine.qa.test.HomePageTest.homePageTitleTest(HomePageTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-TestNG_Checks-class-failed -->
+          <div class="suite-TestNG_Checks-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.valentine.qa.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyRightOwnerTest">
+                  </a> <!-- copyRightOwnerTest -->
+                  <span class="method-name">copyRightOwnerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageHeaderCodeBtnClickTest">
+                  </a> <!-- homePageHeaderCodeBtnClickTest -->
+                  <span class="method-name">homePageHeaderCodeBtnClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageLogoTest">
+                  </a> <!-- homePageLogoTest -->
+                  <span class="method-name">homePageLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Checks-class-passed -->
+        </div> <!-- panel TestNG_Checks -->
+        <div panel-name="test-xml-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--874047325/testng-customsuite.xml</span>
+            <span class="header-content">/home/manish/git/com.valentine.automationTest/com.webSite.test/src/main/resources/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;TestNG Checks&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.valentine.qa.utils.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNG test&quot; verbose=&quot;2&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.valentine.qa.test.Add2CartPageTest&quot;/&gt;
+      &lt;class name=&quot;com.valentine.qa.test.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- TestNG test --&gt;
+&lt;/suite&gt; &lt;!-- TestNG Checks --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for TestNG Checks</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">TestNG test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for TestNG Checks</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for TestNG Checks</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_TestNG_Checks');
+function tableData_TestNG_Checks() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validatesubmitBtnTest')
-data.setCell(0, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(0, 3, 2371);
+data.setCell(0, 1, 'homePageHeaderCodeBtnClickTest')
+data.setCell(0, 2, 'com.valentine.qa.test.HomePageTest')
+data.setCell(0, 3, 1471);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validatesubmitBtnTest')
-data.setCell(1, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(1, 3, 2224);
+data.setCell(1, 1, 'homePageLogoTest')
+data.setCell(1, 2, 'com.valentine.qa.test.HomePageTest')
+data.setCell(1, 3, 125);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validatesubmitBtnTest')
-data.setCell(2, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(2, 3, 2216);
+data.setCell(2, 1, 'copyRightOwnerTest')
+data.setCell(2, 2, 'com.valentine.qa.test.HomePageTest')
+data.setCell(2, 3, 111);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validatesubmitBtnTest')
-data.setCell(3, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(3, 3, 2203);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validatesubmitBtnTest')
-data.setCell(4, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(4, 3, 2200);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validatesubmitBtnTest')
-data.setCell(5, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(5, 3, 2194);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validatesubmitBtnTest')
-data.setCell(6, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(6, 3, 2180);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validatesubmitBtnTest')
-data.setCell(7, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(7, 3, 2157);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validatesubmitBtnTest')
-data.setCell(8, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(8, 3, 2114);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validatesubmitBtnTest')
-data.setCell(9, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(9, 3, 2113);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validatesubmitBtnTest')
-data.setCell(10, 2, 'com.valentine.qa.test.Add2CartPageTest')
-data.setCell(10, 3, 2077);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(3, 1, 'homePageTitleTest')
+data.setCell(3, 2, 'com.valentine.qa.test.HomePageTest')
+data.setCell(3, 3, 12);
+window.suiteTableData['TestNG_Checks']= { tableData: data, tableDiv: 'times-div-TestNG_Checks'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-TestNG_Checks">
+              </div> <!-- times-div-TestNG_Checks -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for TestNG Checks</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-TestNG_Checks" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.valentine.qa.test.Add2CartPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.valentine.qa.test.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(ravi, ravi@ravi.com, www.ravi.com, 1.5, this is my 1st comment added directly from test data sheet.)</span>
-                <span class="method-start">14333 ms</span>
+                <span class="method-name">copyRightOwnerTest</span>
+                <span class="method-start">11954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16530 ms</span>
+                <span class="method-start">12067 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">17598 ms</span>
+                <span class="method-start">13252 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(amit, amit@amit.com, www.amit.com, 1.5, this is my 2nd comment added directly from test data sheet.)</span>
-                <span class="method-start">28768 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">23103 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30883 ms</span>
+                <span class="method-start">23118 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">32057 ms</span>
+                <span class="method-start">24283 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(sushil, ravi@ravi.com, www.ravi.com, 2.5, this is my 3rd comment added directly from test data sheet...)</span>
-                <span class="method-start">44590 ms</span>
+                <span class="method-name">homePageLogoTest</span>
+                <span class="method-start">32695 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46791 ms</span>
+                <span class="method-start">32822 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">47976 ms</span>
+                <span class="method-start">33988 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(dinesh, amit@amit.com, www.amit.com, 2.5, this is my 4th comment added directly from test data sheet...)</span>
-                <span class="method-start">59896 ms</span>
+                <span class="method-name">homePageHeaderCodeBtnClickTest</span>
+                <span class="method-start">43002 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62113 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">63286 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Raj Shekhar, ravi@ravi.com, www.ravi.com, 3.5, this is my 5th comment added directly from test data ...)</span>
-                <span class="method-start">76933 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">79305 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">80365 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Ramesh, amit@amit.com, www.amit.com, 3.5, this is my 6th comment added directly from test data sheet...)</span>
-                <span class="method-start">94099 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">96280 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">97445 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Suresh, ravi@ravi.com, www.ravi.com, 4.5, this is my 7th comment added directly from test data sheet...)</span>
-                <span class="method-start">111500 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">113658 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">114835 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Sushanta, amit@amit.com, www.amit.com, 4.5, this is my 8th comment added directly from test data she...)</span>
-                <span class="method-start">127739 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">129817 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">130893 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Devang, ravi@ravi.com, www.ravi.com, 4.5, this is my 9th comment added directly from test data sheet...)</span>
-                <span class="method-start">144204 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">146318 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">147512 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Devangan, amit@amit.com, www.amit.com, 1.5, this is my 10th comment added directly from test data sh...)</span>
-                <span class="method-start">159378 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">161603 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">162789 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatesubmitBtnTest(Diler Paji, ravi@ravi.com, www.ravi.com, 1.5, this is my 11th comment added directly from test data ...)</span>
-                <span class="method-start">174738 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">176942 ms</span>
+                <span class="method-start">44475 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
