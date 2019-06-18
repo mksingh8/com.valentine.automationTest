@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.valentine.qa.test.Add2CartPageTest">
+      <class name="com.valentine.qa.test.HomePageTest">
         <methods>
+          <include name="homePageTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="validatesubmitBtnTest" invocation-numbers="0 2 4 6 8 9"/>
         </methods>
-      </class> <!-- com.valentine.qa.test.Add2CartPageTest -->
+      </class> <!-- com.valentine.qa.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

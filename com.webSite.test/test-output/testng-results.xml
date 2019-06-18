@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-05T21:36:18Z" name="TestNG Checks" finished-at="2019-02-05T21:37:04Z" duration-ms="45700">
+  <suite started-at="2019-02-08T18:51:36Z" name="Default suite" finished-at="2019-02-08T18:52:38Z" duration-ms="62323">
     <groups>
     </groups>
-    <test started-at="2019-02-05T21:36:18Z" name="TestNG test" finished-at="2019-02-05T21:37:04Z" duration-ms="45700">
+    <test started-at="2019-02-08T18:51:36Z" name="Default test" finished-at="2019-02-08T18:52:38Z" duration-ms="62323">
       <class name="com.valentine.qa.test.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:18Z" name="setUp" finished-at="2019-02-05T21:36:30Z" duration-ms="11954" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:51:36Z" name="setUp" finished-at="2019-02-08T18:51:52Z" duration-ms="16196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copyRightOwnerTest()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:30Z" name="copyRightOwnerTest" finished-at="2019-02-05T21:36:30Z" duration-ms="111" status="PASS">
+        <test-method signature="copyRightOwnerTest()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:51:52Z" name="copyRightOwnerTest" finished-at="2019-02-08T18:51:53Z" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copyRightOwnerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:30Z" name="tearDown" finished-at="2019-02-05T21:36:31Z" duration-ms="1184" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:51:53Z" name="tearDown" finished-at="2019-02-08T18:51:54Z" duration-ms="1202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:31Z" name="setUp" finished-at="2019-02-05T21:36:41Z" duration-ms="9851" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:51:54Z" name="setUp" finished-at="2019-02-08T18:52:05Z" duration-ms="11044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:41Z" name="homePageTitleTest" finished-at="2019-02-05T21:36:41Z" duration-ms="12" status="FAIL">
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:05Z" name="homePageTitleTest" finished-at="2019-02-08T18:52:05Z" duration-ms="12" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Valentine's Day Cards | Please your loved ones with a card this year!!] but found [Valentine's Day Cards | Please your loved ones with a card this year!]]]>
@@ -68,35 +68,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:41Z" name="tearDown" finished-at="2019-02-05T21:36:42Z" duration-ms="1164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:05Z" name="tearDown" finished-at="2019-02-08T18:52:06Z" duration-ms="1075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:42Z" name="setUp" finished-at="2019-02-05T21:36:51Z" duration-ms="8412" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:06Z" name="setUp" finished-at="2019-02-08T18:52:18Z" duration-ms="12352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageLogoTest()[pri:1, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:51Z" name="homePageLogoTest" finished-at="2019-02-05T21:36:51Z" duration-ms="125" status="PASS">
+        <test-method signature="homePageLogoTest()[pri:1, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:18Z" name="homePageLogoTest" finished-at="2019-02-08T18:52:18Z" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:51Z" name="tearDown" finished-at="2019-02-05T21:36:52Z" duration-ms="1165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:18Z" name="tearDown" finished-at="2019-02-08T18:52:20Z" duration-ms="1177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:36:52Z" name="setUp" finished-at="2019-02-05T21:37:01Z" duration-ms="9014" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:20Z" name="setUp" finished-at="2019-02-08T18:52:33Z" duration-ms="13035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageHeaderCodeBtnClickTest()[pri:2, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:37:01Z" name="homePageHeaderCodeBtnClickTest" finished-at="2019-02-05T21:37:03Z" duration-ms="1471" status="PASS">
+        <test-method signature="homePageHeaderCodeBtnClickTest()[pri:2, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:33Z" name="homePageHeaderCodeBtnClickTest" finished-at="2019-02-08T18:52:35Z" duration-ms="2907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageHeaderCodeBtnClickTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@36d585c]" started-at="2019-02-05T21:37:03Z" name="tearDown" finished-at="2019-02-05T21:37:04Z" duration-ms="1206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.valentine.qa.test.HomePageTest@69fb6037]" started-at="2019-02-08T18:52:35Z" name="tearDown" finished-at="2019-02-08T18:52:38Z" duration-ms="2993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.valentine.qa.test.HomePageTest -->
-    </test> <!-- TestNG test -->
-  </suite> <!-- TestNG Checks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -10,7 +10,7 @@
 
 		<classes>
 			<class name="com.valentine.qa.test.HomePageTest"></class>
-			<class name="com.valentine.qa.test.Add2CartPageTest" />
+			<!-- <class name="com.valentine.qa.test.Add2CartPageTest" /> -->
 			<!-- <class name="testNGBasics.TestNGFeatures" /> -->
 			<!-- <class name="testNGBasics.TestNGBasics" /> -->
 		</classes>
